@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  min-height: 100vh;
+}
+.character-list-container {
+  width: 50%;
+  height: 450px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #ffbf1f;
+  display: flex;
+  flex-direction: column;
+  padding-top: 36px;
+  margin-left: 32px;
+}
+.no-user-image {
+  width: 100%;
+  margin-top: 24px;
+}
+.list-container {
+  background-color: #ffc533;
+  width: 100%;
+  margin-top: 24px;
+  padding: 24px;
+  height: 100%;
+}
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.character-paragraph {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.character-input {
+  width: 50%;
+  height: 450px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  padding-top: 36px;
+  padding-bottom: 38px;
+  margin-right: 32px;
+}
+.list-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 32px;
+}
+.counter-heading {
+  color: #ffc533;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.input-container {
+  margin-top: 32px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 250px;
+  height: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #475569;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.add-button {
+  border-radius: 5px;
+  background-color: #ffbf1f;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #272c47;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
